@@ -1,0 +1,82 @@
+.btn{
+  position: relative;
+  padding: 10px;
+
+  border-radius: 4px;
+  border: 1.5px solid #FE9A19;
+}
+.btn a{
+  font-family: 'Quicksand', sans-serif;
+
+}
+.btn:hover{
+  color: white;
+  background: #FE9A19;
+    cursor: pointer;
+}
+/************Mango Animation*******/
+.btn::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 120%;
+  background-image: url(../imgs/mango-hover.png);
+  filter: opacity(0);
+  transition-duration: 0.8s;
+  will-change: transform;
+}
+.btn::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 120%;
+  background-image: url(../imgs/mango-hover2.png);
+  filter: opacity(0);
+  transition-duration: 0.8s;
+
+}
+
+.btn:hover::before {
+
+  filter: opacity(100%);
+}
+.btn:hover::after {
+
+  filter: opacity(100%);
+}
+/************Mango Animation*******/
+.btn .principal{
+  background-color: #FE9A19;
+  color: white;
+}
+.principal::after {
+  display: none;
+}
+.principal::before {
+  display: none;
+}
+
+
+
+/***********************ACTIVO******************************/
+.activo  p {
+  color: #FF9A1F;
+  font-weight: bolder;
+}
+
+/*******************INACTIVO*********************/
+.inactivo a p{
+  color: darkgrey;
+
+}
+.inactivo a::after{
+  display: none
+}
+.inactivo a::before{
+  display: none;
+}
+.inactivo a:hover{
+  cursor: default;
+}

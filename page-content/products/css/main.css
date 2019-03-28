@@ -1,0 +1,100 @@
+.page{
+  padding-bottom: 0;
+  height: auto;
+  min-height: auto;
+  position: absolute;
+  background: none;
+  width: 100%;
+}
+.about-container{
+  height:320px;
+
+  width: 100%;
+
+}
+.about-container h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+}
+.about-container h1::after{
+content: "";
+border-bottom: 3px solid skyblue;
+  position: absolute;
+width: 20%;
+height: 100%;
+left: 0;
+}
+.navbar{
+  border-bottom: 1px solid black;
+}
+.navbar a{
+  color: black;
+}
+.icon-bar-icon{
+  color: black;
+}
+.img-principal{
+
+  background-color: white;
+  height:380px;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+.img-principal{
+  color: black;
+
+}
+
+.productos{
+
+  display: grid;
+  overflow: hidden;
+  grid-template: auto auto/1fr 1fr;
+
+
+}
+.fruto{
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruta-descripcion{
+  position: absolute;
+z-index: 5;
+  transition-duration: 0.7s;
+  overflow: hidden;
+  height: 0%;
+  opacity: 0;
+  width: 100%;
+  background: rgba(1, 0, 0, 0.65);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fruto img{
+    z-index: 3;
+width: 100%;
+}
+.fruto:hover .fruta-descripcion{
+  height: 100%;
+  opacity: 1;
+}
+#fruta1 img,#fruta2 img {
+  vertical-align: bottom;
+
+}
+
+.fruta-descripcion h1{
+  color: white;
+
+
+}

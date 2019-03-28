@@ -1,0 +1,22 @@
+.text-asignar{
+  margin: 11.5rem auto 30px auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  text-align: center;
+
+  min-width: 126px;
+}
+.text-asignar img{
+  width: 24%;
+}
+.text-asignar h6{
+    font-size: 65px;
+    margin: 0;
+    color: #FF9B20;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-weight: lighter;
+}

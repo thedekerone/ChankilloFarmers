@@ -1,0 +1,27 @@
+@media only screen and (max-width: 950px){
+  .info-about{
+    width: 80%;
+    margin: 0 auto;
+
+  }
+  .about-content{
+    height: 110vh;
+    flex-direction: column-reverse;
+  }
+
+  .about-content img,#info-content{
+    text-align: center;
+    margin: 0;
+    }
+}
+@media only screen and (max-width: 500px){
+#info-content{
+  width: 80%;
+}
+.info-about h1{
+  font-size: 24px;
+}
+.info-about p{
+  font-size: 12px;
+}
+}

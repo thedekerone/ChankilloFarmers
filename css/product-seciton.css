@@ -1,0 +1,82 @@
+.fruit-container{
+    height: 65vh;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+#kent button{
+    background: url('../imgs/fruit-icon/kent-icon.png') center center no-repeat;
+    background-size: 100%;
+    border: 0;
+}
+#keitt button{
+    background: url('../imgs/fruit-icon/keitt-icon.png') center center no-repeat;
+    background-size: 100%;
+    border: 0;
+}
+#hass button{
+    background: url('../imgs/fruit-icon/hass-icon.png') center center no-repeat;
+    background-size: 100%;
+    border: 0;
+}
+#strong button{
+    background: url('../imgs/fruit-icon/strong-icon.png') center center no-repeat;
+    background-size: 100%;
+    border: 0;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    
+}
+.fruit-button{
+    margin: 0 20px;
+    
+    text-align: center;
+}
+.fruit-button h5{
+    margin: 0;
+} 
+.fruit-button button{
+    height: 80px;
+    width: 80px;
+}
+.img-fruit-container{
+    transition-duration: 1s;
+    text-align: center;
+    border-radius: 10px;
+    height: 17rem;
+    width: 25rem;
+
+
+}
+.btn{
+    background-color: #FE9A19;
+}
+.about-quality{
+    background-color: darkcyan;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #7C8C2D;
+    display: flex;
+    align-items: center;
+    border-left: 20px solid black;
+    width: 80%;
+    margin: 30px auto;
+}
+#quality-mango{
+    flex-direction: column-reverse;
+    color: #C07C2A;
+    justify-content: flex-end;
+    
+    
+}
+hr{
+    width: 70%;
+}

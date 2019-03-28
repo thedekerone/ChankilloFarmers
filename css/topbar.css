@@ -1,0 +1,51 @@
+.topbar{
+
+  max-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.icon-bar-icon{
+
+  display: none;
+  margin-right: 12px;
+  font-size: 29px;
+
+
+}
+.icon-bar-icon::before{
+  display: flex;
+  margin: 0;
+
+  padding: 10px;
+
+      border-radius: 50%;
+
+}
+
+.icon-bar-icon:hover {
+  cursor: pointer;
+  color: #FE9A19;
+}
+/*IMAGE AND PAGE*/
+
+
+.img-principal{
+  z-index: -1;
+  height: 88vh;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.img-principal video{
+  min-width: 1440px;
+  filter: brightness(65%);
+  width:100%;
+  position: sticky;
+}
+
+/*IMAGE AND PAGE*/

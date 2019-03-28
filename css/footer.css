@@ -1,0 +1,51 @@
+.footer-section{
+
+
+  width: 100%;
+  padding: 30px;
+  color: white;
+  background-color:#121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer-section div{
+
+  width: 300px;
+}
+.redes-sociales{
+  padding: 0;
+  list-style: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.redes-sociales li{
+  width: 23px;
+  height: 23px;
+  font-size: 23px;
+}
+#fb-icon:hover{
+  color: #4267b2;
+}
+#tw-icon:hover{
+  color:#1dcaff;
+}
+#insta-icon:hover{
+  color:#bc2a8d;
+}
+.footer-section .logo-img{
+  text-align: center;
+}
+.footer-section{
+  width: 100%;
+  padding: 30px 0;
+}
+.Info-contacto ul{
+  list-style: none;
+}
+.Info-contacto li{
+  margin-bottom: 10px;
+  color: skyblue;
+}

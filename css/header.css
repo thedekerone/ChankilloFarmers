@@ -1,0 +1,165 @@
+
+body{
+
+margin: 0;
+background-image: url("../imgs/repeat-y.jpg");
+width: 100%;
+background: white;
+}
+.loading{
+  display: none;
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  background-color: white;
+  z-index: 99;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+p{
+font-family: 'Quicksand', sans-serif;
+font-size: 14px;
+}
+h5,h1{
+    font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.page{
+ 
+ /** background: url("../imgs/1350.jpg") center ;
+  background-size: 1910px;
+  background-attachment: fixed; **/
+  position: relative;
+ 
+  height: 88vh;
+  overflow:hidden;
+  width:100%;
+}
+
+.navbar{
+  background-color: rgba(255,255,255,0.2);
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  color: white;
+  overflow: hidden;
+}
+.logo{
+
+  z-index: 8;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 20px;
+
+}
+
+#logo-hover{
+display: none;
+}
+
+.logo:hover #logo{
+  display: none;
+
+}
+.logo:hover #logo-hover{
+display: inline;
+cursor: pointer;
+}
+.logo h2,
+.navbar,
+.navbar nav,
+.navbar nav ul,
+.nav-item{
+  margin: 0;
+}
+.nav-container{
+  display: block;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.nav-container nav, .nav-container nav ul{
+  height: inherit;
+  display: flex;
+}
+.nav-item{
+  display: flex;
+  height: inherit;
+
+}
+.nav-item a{
+font-family: 'Quicksand', sans-serif;
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  height: inherit;
+  align-items: center;
+}
+.nav-item a p{
+    font-size: 12.5px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+  color: #FE9A19;
+}
+/****ANIMACION***/
+.nav-item a::before{
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  left: 15%;
+  border-bottom: 2px solid #FE9A19;
+  bottom: 30%;
+}
+.nav-item a::after{
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  right:  15%;
+  border-bottom: 2px solid #FE9A19;
+  top: 30%;
+}
+
+.nav-item a:hover::after{
+
+animation-timing-function: linear;
+ animation-name:gaa, fade-in;
+ animation-duration: 0.28s,0.2s;
+ animation-fill-mode: forwards, forwards;
+
+/****ANIMACION***/
+}
+.nav-item a:hover::before{
+
+animation-timing-function: linear;
+ animation-name:gaa, fade-in;
+ animation-duration: 0.28s,0.2s;
+ animation-fill-mode: forwards, forwards;
+
+}
+
+/****ANIMACION***/
+.nav-item p{
+  position: relative;
+    padding: 0px 16px;
+    border-left: 2px solid white;
+}
+
+.nav-item #p-primero{
+  border-left: none;
+}
+
+#commitment-item p {
+  border-left:  0;
+  margin: 0;
+  padding: 5px;
+}
