@@ -56,11 +56,15 @@ font-size: 16px;
   justify-content: space-between;
 }
 .about-content img{
-  transition-duration: 0.7s;
+  transition-property: top,opacity;
+  transition-duration: 0.8s,1.5s;
+  transition-delay: 0.3s;
   position: relative;
 }
 #info-content{
-  transition-duration: 0.7s;
+  transition-property: top,opacity;
+  transition-duration: 0.8s,1.5s;
+
   width: 35%;
    margin-left: 8%;
   text-align: left;

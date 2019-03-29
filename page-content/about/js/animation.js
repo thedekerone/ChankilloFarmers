@@ -39,7 +39,7 @@ window.addEventListener("scroll", throttleScroll, false);
   $aboutInfo.animate([
     {
       opacity: "0",
-      paddingTop: "300px"
+      paddingTop: "500px"
     },
     {
       opacity:"1",
@@ -61,17 +61,17 @@ function throttleScroll(e) {
     isScrolling = true;
 }
 $contentInfo.style.opacity=0;
-$contentInfo.style.right="500px";
+$contentInfo.style.top="500px";
 $contentInfo2.style.opacity=0;
-$contentInfo2.style.left="500px";
+$contentInfo2.style.top="500px";
 function dealWithScrolling(e) {
   console.log(altura);
   $aboutInfo.style.opacity=1-0.0045*altura;
-  if (altura>window.screen.height-450) {
+  if (altura>window.screen.height-700) {
     $contentInfo.style.opacity=1;
-      $contentInfo.style.right="0px";
+      $contentInfo.style.top="-50px";
       $contentInfo2.style.opacity=1;
-        $contentInfo2.style.left="0px";
+        $contentInfo2.style.top="-50px";
 
   }
 }
