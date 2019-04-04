@@ -156,7 +156,7 @@ left: -25%;
   position: relative;
   width: 92%;
 }
-#socio-title,#compromiso-title{
+#socio-title,#compromiso-title,#contact-title{
 font-family: 'Quicksand', sans-serif;
       font-weight:bolder;
   align-self: flex-start;
@@ -169,4 +169,7 @@ font-family: 'Quicksand', sans-serif;
 #compromiso-title {
   background-color: #A4BD23;
 
+}
+#socio-title{
+  background-color: #9E2A2B;
 }

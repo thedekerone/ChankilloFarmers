@@ -17,8 +17,10 @@
 @media only screen and (max-width: 950px){
   .socios-container{
     height: auto;
-    background: url("../imgs/socios-responsive.jpg") center ;
-  }
+  /**  background: url("../imgs/socios-responsive.jpg") center ;
+    **/
+    background: grey;
+}
   .socios{
     grid-template: repeat(3,1fr)/0.8fr;
  
