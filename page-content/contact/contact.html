@@ -63,7 +63,10 @@
         <form name="contact" id="contact-form" action="contact-form-handler.php" method="POST" data-netlify="true">
           <input type="text" name="name" class="form-control" placeholder="Your Name" required><br>
           <input type="text" name="email" class="form-control" placeholder="Your Email" required><br>
-              <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea><br>
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea><br>
           <input type="submit" class="form-control submit" value="SEND MESSAGE">
         </form>
 
